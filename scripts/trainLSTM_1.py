@@ -4,7 +4,8 @@ import sys
 import argparse
 
 from keras.models import Sequential
-from keras.layers.core import Dense, Activation, Merge, Dropout, Reshape
+from keras.layers.core import Dense, Activation, Dropout, Reshape
+from keras.layers import Merge
 from keras.layers.recurrent import LSTM
 from keras.utils import np_utils, generic_utils
 from keras.callbacks import ModelCheckpoint, RemoteMonitor
